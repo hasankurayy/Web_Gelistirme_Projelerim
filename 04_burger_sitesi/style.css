@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #F6F8FA;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-1 {
+    height: 90vh;
+    background-image: url("https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/background-burgers-home-top.jpg");
+    background-size: cover;
+    min-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+/* section-1 navbar logo */
+
+nav .logo {
+    background-color: red;
+    width: 100px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+nav .logo .logo-image {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+nav .logo .logo-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* section-1 navbar-menu */
+
+.navbar-menu {
+    margin-right: 30%;
+}
+
+.navbar-menu ul {
+    display: flex;
+}
+
+.navbar-menu ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.navbar-menu ul li a:hover, 
+.section-1 .icons i:hover {
+    color: red;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+/* section-1 icons */
+
+.section-1 .icons {
+    margin-right: 30px;
+}
+
+.section-1 .icons i {
+    padding: 5px;
+}
+
+/* section-1 main */
+
+.section-1 main {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.section-1 main p:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    display: inline-block;
+    background-color: red;
+}
+
+.section-1 main p:nth-of-type(2) {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.section-1 main a {
+    padding: 15px 30px;
+    background-color: red;
+    font-size: 14px;
+    border: 2px solid red
+}
+
+.section-1 main a:hover {
+    background-color: black;
+    color: red;
+}
+
+/* section-2 */
+
+.section-2 {
+    display: flex;
+    background-color: red;
+}
+
+.section-2 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    padding: 40px;
+}
+
+.section-2 .card p {
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.section-2 img {
+    margin-bottom: 15px;
+}
+
+.section-2 h3 {
+    margin-bottom: 10px;
+}
+
+/* section-3 */
+
+.section-3 {
+
+    padding: 15px;
+}
+
+.section-3 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.section-3 .header h5 {
+    background-color: red;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.section-3 .header h3 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.section-3 .header p {
+    color: black;
+    opacity: 0.7;
+}
+
+/* section-3 content */
+
+.hamburger-options {
+    margin: auto;
+    width: 95%;
+}
+
+.hamburger-options .row {
+    display: flex;
+}
+
+.hamburger-options .card {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+
+.hamburger-options img {
+    margin-bottom: 10px !important;
+    width: 220px;
+}
+
+.hamburger-options img,
+.hamburger-options h3,
+.hamburger-options p {
+    margin: auto;
+}
+
+.hamburger-options h3 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+}
+
+.hamburger-options p {
+    text-align: center;
+    color: black;
+    opacity: 0.7;
+}
+
+
+.hamburger-options .card:hover {
+    transform: scale(1.2);
+}
+
+.section-3 .button {
+    display: flex;
+}
+
+.section-3 a {
+    color: red;
+    margin: 50px auto;
+    padding: 10px 20px;
+
+    border: 2px solid red;
+}
+
+.section-3 a:hover {
+    background-color: red;
+    color: white;
+    transition: all 0.4s;
+}
+
+/* section-4 */
+
+.section-4 .card {
+    padding-left: 50px;
+    padding-top: 60px;
+    width: 80%;
+}
+
+.section-4 .card-bg {
+    height: 95vh;
+    background-color: blue;
+    width: 49.7%;
+    background-size: cover;
+    transition: width 2s;
+    overflow: hidden;
+}
+
+.section-4 .card-bg:hover{
+    width: 80%;
+}
+
+.section-4 .card-bg:hover a{
+    padding: 20px 40px;
+    font-size: 15px;
+}
+
+.section-4 .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.section-4 .row:first-child .card-bg:nth-of-type(1){
+    background-image: url(https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-left-1.jpg);
+}
+
+.section-4 .row:first-child .card-bg:nth-of-type(2){
+    background-image: url(https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-right-1.jpg);
+}
+
+.section-4 .row:nth-of-type(2) .card-bg:nth-of-type(1){
+    background-image: url(https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-left-2.jpg)
+}
+
+.section-4 .row:nth-of-type(2) .card-bg:nth-of-type(2){
+    background-image: url(https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-right-2.jpg)
+}
+
+.section-4 .row:nth-of-type(3) .card-bg:nth-of-type(1){
+    background-image: url(https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-left-3.jpg);
+}
+
+.section-4 .row:nth-of-type(3) .card-bg:nth-of-type(2){
+    background-image: url(https://fast-food.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/01/cell-background-burger-right-3.jpg);
+}
+
+.red{
+    color:red;
+}
+
+.section-4 .etiket {
+    display: inline-block;
+    background-color: red;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.section-4 h2 {
+    font-size: 50px;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+
+.section-4 p {
+    opacity: 0.4;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.section-4 .price {
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+
+.section-4 span {
+    opacity: 0.4;
+}
+
+.section-4 a {
+    padding: 10px 20px;
+    font-size: 10px;
+    border: 2px solid white;
+}
+
+.section-4 a:hover{
+    color: black;
+    transition: all 0.4s;
+    background-color: white;
+}
+
+/* section-5 */
+
+.section-5 .info{
+    background-color: #232323;
+    width: 50%;
+    padding: 50px;
+}
+
+.section-5 .header p:first-child{
+    padding: 5px 10px;
+    background-color: red;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.section-5 .header p:last-child{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.section-5 .logo{
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.section-5 .logo i{
+    color: red;
+}
+
+.section-5 .logo i:hover{
+    color: white;
+    transition: all 0.4;
+}
+
+.section-5 .text{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-5 .icons .white-box{
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.section-5 .icons i{
+    color: #232323;
+    margin: auto;
+}
+ 
+.section-5 .icons{
+    display: flex;
+}
+
+.section-5 .white-box:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.4;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.section-5{
+    display: flex;
+}
+
+.section-5 iframe{
+    width: 50%;
+}
+
+/* section-6 */
+
+.section-6{
+    display: flex;
+    background-color: red;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-6 p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section-6 a{
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.section-6 a:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.4;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 10vh;
+    background-color: #232323;
+    display: flex;
+}
+
+.footer p{
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .section-2{
+        flex-direction: column;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .section-4 .card-bg{
+        width: 100vw;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .section-5{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-5 .info, .section-5 iframe{
+        width: 100vw;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+}
+
